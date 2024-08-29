@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nub_client",
+  "version": "${version}",
+  "name": "NUB Client",
+  "description": "Nerd",
+  "authors": ["_HungryDog_", "Bebra_tyan"],
+  "contact": {
+    "repo": ""
+  },
+  "license": "MIT",
+  "icon": "assets/nubclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lilyfena.NUBClient.NUBClient"
+    ]
+  },
+  "mixins": [
+    "nub_client.mixins.json"
+  ],
+  "accessWidener" : "nubclient.accesswidener",
+  "depends": {
+    "fabricloader": "0.16",
+    "minecraft": "1.20.4"
+  }
+}
